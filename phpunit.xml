@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="./vendor/phpunit/phpunit/phpunit.xsd"
+        bootstrap="tests/bootstrap.php" colors="true"
+        beStrictAboutTestsThatDoNotTestAnything="true"
+        beStrictAboutChangesToGlobalState="true"
+        beStrictAboutCoversAnnotation="true"
+        beStrictAboutOutputDuringTests="true"
+        beStrictAboutResourceUsageDuringSmallTests="true"
+        beStrictAboutTodoAnnotatedTests="true"
+>
+    <testsuites>
+        <testsuite name="GermanAdministrativeAreaKeys Test Suite">
+            <directory>tests/GermanAdministrativeAreaKeys/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

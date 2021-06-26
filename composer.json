@@ -1,21 +1,39 @@
 {
-    "name": "logicexception/php-german-administrative-area-keys",
-    "description": "php-german-administrative-area-keys",
+    "name": "logicexception/german-administrative-area-keys",
+    "description": "german administrative area keys",
     "type": "library",
-    "require-dev": {
-        "psr/log": "^1.1"
-    },
     "license": "BSD",
-    "autoload": {
-        "psr-4": {
-            "Logicexception\\PhpGermanAdministrativeAreaKeys\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Enrico Lüdecke",
             "email": "logicexception@mailbox.org"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.0",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "phpstan/phpstan": "^0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "LogicException\\GermanAdministrativeAreaKeys\\": "src/GermanAdministrativeAreaKeys"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LogicException\\GermanAdministrativeAreaKeys\\": "tests/GermanAdministrativeAreaKeys"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "phpstan": "vendor/bin/phpstan analyse"
+    },
+    "config": {
+        "sort-packages": true,
+        "platform-check": false
+    },
+    "lock": false
 }
