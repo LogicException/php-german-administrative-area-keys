@@ -1,0 +1,21 @@
+{
+    "name": "logicexception/php-german-administrative-area-keys",
+    "description": "php-german-administrative-area-keys",
+    "type": "library",
+    "require-dev": {
+        "psr/log": "^1.1"
+    },
+    "license": "BSD",
+    "autoload": {
+        "psr-4": {
+            "Logicexception\\PhpGermanAdministrativeAreaKeys\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Enrico Lüdecke",
+            "email": "logicexception@mailbox.org"
+        }
+    ],
+    "require": {}
+}
