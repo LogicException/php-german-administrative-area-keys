@@ -2,7 +2,7 @@
     "name": "logicexception/german-administrative-area-keys",
     "description": "german administrative area keys",
     "type": "library",
-    "license": "BSD",
+    "license": "BSD-3-Clause",
     "authors": [
         {
             "name": "Enrico Lüdecke",
